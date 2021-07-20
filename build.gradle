@@ -1,0 +1,40 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '6.1.0'
+    id 'java'
+}
+
+group 'me.oma.omaBackdoor'
+version '0.2'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation 'com.google.code.gson:gson:2.8.7'
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        attributes(
+                'Manifest-Version': '0.2',
+                'Main-Class': 'me.oma.omaBackdoor.Main'
+        )
+    }
+}
+shadowJar {
+    dependencies {
+        include(dependency('com.google.code.gson:gson:2.8.7'))
+
+    }
+
+    classifier = 'release'
+}
+
