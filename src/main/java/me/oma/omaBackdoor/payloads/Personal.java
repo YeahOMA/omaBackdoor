@@ -20,7 +20,4 @@ public class Personal
             return "Fail";
         }
     }
-
-
-
 }
