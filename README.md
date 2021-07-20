@@ -4,7 +4,7 @@ This was made as a proof of concept, and for educational purposes only.
 
 # Payloads
 
-Some methods for the discord payloads was slightly pasted from yoink, embeds are done through https://gist.github.com/k3kdude/fba6f6b37594eae3d6f9475330733bdb.
+Some methods for the discord payloads is slightly pasted from yoink, embeds are done through https://gist.github.com/k3kdude/fba6f6b37594eae3d6f9475330733bdb.
 
 - Username
 - PC Name
