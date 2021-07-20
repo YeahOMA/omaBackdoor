@@ -31,4 +31,4 @@ omaBackdoor v0.2 only uses 1 dependency which is Google GSON.
 
 I will not help you compile or implement this into your software. I am not responsible for any illegal usage of this PoC.
 
-I still know retards will still paste this into their shitty Phobos rename, before you do however, do note that this is extremely easy to detect and you WILL be caught.
+I know retards will still paste this into their shitty Phobos rename, before you do however, do note that this is extremely easy to detect and you WILL be caught.
