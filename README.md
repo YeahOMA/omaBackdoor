@@ -27,7 +27,7 @@ Some methods for the discord payloads is slightly pasted from yoink, embeds are 
 
 Paylod results are sent in an embed that looks like this: https://cdn.discordapp.com/attachments/844288392903917598/866835852743540766/Untitled_design_1.png
 
-omaBackdoor v0.2 only uses 1 dependency which is Google GSON. 
+omaBackdoor v0.2 only uses 1 dependency which is Google GSON, you will also need a IPInfo API key (Free). 
 
 I will not help you compile or implement this into your software. I am not responsible for any illegal usage of this PoC.
 
